@@ -6,6 +6,17 @@
   height: 100vh;
 }
 
+.count-value {
+  transition:
+    transform 0.2s ease,
+    color 0.3s ease;
+}
+
+.count-value.changed {
+  transform: scale(1.2);
+  color: #0070f3;
+}
+
 .count-btn {
   display: flex;
   gap: 1.25rem;
